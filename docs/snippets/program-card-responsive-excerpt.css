@@ -1,0 +1,34 @@
+/* Selected excerpt from HTML Program in UNIE.KR(DEV_Jaeuk).
+ * Observed read-only in Bubble editor on 2026-10-02.
+ * Implementation evidence; not an export of the full application.
+ * Selected CSS only. Supporting rules/HTML are omitted.
+ */
+.future-grid {
+    display: grid;
+    gap: 32px;
+    margin-bottom: 160px;
+}
+.grid-acad { grid-template-columns: repeat(4, 1fr); }
+.grid-mobil { grid-template-columns: repeat(3, 1fr); }
+
+.spatial-card:hover {
+    transform: translateY(-10px) scale(1.01);
+    box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.15);
+    border-color: rgba(59, 130, 246, 0.2);
+    z-index: 50;
+}
+.spatial-card:hover .spatial-img { transform: scale(1.15); }
+.spatial-card:hover .action-circle { opacity: 1; transform: scale(1) rotate(0deg); }
+
+@media (max-width: 1024px) {
+    .grid-acad { grid-template-columns: repeat(2, 1fr); }
+    .grid-mobil { grid-template-columns: 1fr; }
+    .card-wide { grid-column: span 1; }
+    .header-headline { font-size: 42px; }
+}
+@media (max-width: 600px) {
+    .future-wrapper { margin: 80px auto; }
+    .header-micro { display: none; }
+    .grid-acad, .grid-mobil { gap: 24px; }
+    .spatial-card { min-height: 380px; }
+}
