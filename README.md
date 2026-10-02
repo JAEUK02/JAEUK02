@@ -25,12 +25,12 @@ The project implements four language choices and document-context Q&A. It remain
 
 ## Product work in international education
 
-- **[UNIE website](docs/unie-website.md):** I handled the homepage design and Bubble implementation, aligning the direction with the planning team in meetings. [Public website](https://unie.kr/) · [FAQ](https://unie.kr/faq).
+- **[UNIE website](docs/unie-website.md):** I handled the homepage design and Bubble implementation with custom HTML/CSS, aligning the direction with the planning team in meetings. The case study includes selected interface and implementation evidence. [Public website](https://unie.kr/) · [FAQ](https://unie.kr/faq).
 - **[Scholarship exploration tool](docs/scholarship-tool.md):** Conversations with students during school visits in Mongolia led me to build a quiz prototype around scholarship interest. I designed the route into company consultation, student-response recording in Google Sheets, and GA4 behavior tracking. The prototype uses rule-based example candidates; scholarship awards are determined by universities.
 
 This work grew from AWS study and the School Buddy hackathon into practical use of S3 hosting, lead collection, and GA4 behavior analysis.
 
-These case studies describe the public interfaces, my role, and the implementation approach. Company source, internal settings, and individual student data are outside these documents.
+These case studies describe the public interfaces, my role, and the implementation approach. Selected implementation evidence is included with approval; full application sources, operational settings, and individual student data are excluded.
 
 ## Technologies in these projects
 
