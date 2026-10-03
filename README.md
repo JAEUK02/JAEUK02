@@ -21,7 +21,7 @@ The project implements four language choices and document-context Q&A. It remain
 | --- | --- | --- |
 | [SecurityProject-IDS-](https://github.com/JAEUK02/SecurityProject-IDS-) | CIC-IDS2017 preprocessing, Logistic Regression / Random Forest / LightGBM / GRU autoencoder comparisons, and archived evaluation outputs | Course project notebooks; results have reproducibility limits described in the README |
 | [RT-IoT2022](https://github.com/JAEUK02/RT-IoT2022) | Random Forest multiclass classification, per-class metrics, feature importance, and PCA plots | Offline notebook study of IoT traffic |
-| [Django2025](https://github.com/JAEUK02/Django2025) | Content models, list/detail views, signup/login, and comment-flow code | Web coursework; known comment-flow issues are documented |
+| [Django2025](https://github.com/JAEUK02/Django2025) | Content models, list/detail views, signup/login, and comment-flow code | Web coursework; comment-flow regression tests and limitations are documented |
 | [Andorid2025](https://github.com/JAEUK02/Andorid2025) | Java Android number-memory game, dynamic layouts, touch events, and UI-thread updates | Android coursework |
 
 ## Product work in international education
